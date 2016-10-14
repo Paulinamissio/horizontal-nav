@@ -8,6 +8,10 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+body{
+  background-color: #595652;
+  color: #dbd6cf;
+}
 
 h1{
   h1 {
@@ -18,24 +22,24 @@ h1{
 .Planets {
   display: block;
   margin:0.3em;
-  padding:.6em;
+  padding:0.6em;
   list-style-type: square;
   text-align: center;
+  background-color: #79756f;
 }
 
 .Planets li {
-  display:inline-block;
-  margin: 0.5em 1em .5em;
-  max-width: 20em;
-  padding: 1em;
-  background-color: #fff;
-  border: 3px solid #e2e2e2;
+  display: inline-block;
+  list-style-type: square;
+  background-color:#713837;
+  color: #dbd6cf;
+  padding: 0.5em;
+  margin: 0.3em;
   border-radius: 10px;
-  text-align: left;
 }
 
 .Planets box-1 {
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 .Planets box-2 {
@@ -46,30 +50,21 @@ h1{
 
 .Planets box-3 {
   display: inline-block;
-  margin: 0;
-  min-width: 9em;
+  margin: 0.3em;
+  min-width: 6em;
 }
 
 .Planets box-4 {
   display: inline-block;
-  margin: 0;
-  min-width: 9em;
+  margin: 0.3em;
+  min-width: 6em;
 }
 
 .Planets div {
   text-align: center;
 }
 
-.Planets p {
-  display:inline-block;
-  padding: .5em .75em;
-  background-color: #ccc;
-  border-radius: 4px;
-  color: #000;
-  text-decoration: none;
-}
-
 .Planets a:hover {
-  background-color: #333;
+  background-color: #dbd6cf;
   color: #fff;
 }
