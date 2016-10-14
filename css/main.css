@@ -9,65 +9,67 @@ html {
   box-sizing: inherit;
 }
 
-body{
-  background-color: #595652;
-  color: #dbd6cf;
-}
-
-h1 {
+h1{
+  h1 {
   font-family: 'Bevan', cursive;
   background-color: #595652;
-  color: #dbd6cf;
+}
+
+.Planets {
   display: block;
-  padding: .6em;
-  margin: 0.3em;
-  border: 10px solid #f33;
-}
-
-.box-1 {
-  display: inline-block;
+  margin:0.3em;
+  padding:.6em;
   list-style-type: square;
-  background-color:#713837;
-  color: #dbd6cf;
-  padding: 0.5em;
-  margin: 0.3em;
-  border-radius: 10px;
+  text-align: center;
 }
 
-.box-2 {
+.Planets li {
+  display:inline-block;
+  margin: 0.5em 1em .5em;
+  max-width: 20em;
+  padding: 1em;
+  background-color: #fff;
+  border: 3px solid #e2e2e2;
+  border-radius: 10px;
+  text-align: left;
+}
+
+.Planets box-1 {
+  margin-bottom: 1rem;
+}
+
+.Planets box-2 {
   display: inline-block;
-  background-color:#713837;
-  color: #dbd6cf;
-  padding: 0.5em;
-  margin: 0.3em;
-  border-radius: 10px;
-
+  width: 6em;
+  font-style: italic;
 }
 
-.box-3 {
+.Planets box-3 {
   display: inline-block;
-  background-color:#713837;
-  color: #dbd6cf;
-  padding: 0.5em;
-  margin: 0.3em;
-  border-radius: 10px;
+  margin: 0;
+  min-width: 9em;
 }
 
-.box-4 {
+.Planets box-4 {
   display: inline-block;
-  background-color:#713837;
-  color: #dbd6cf;
-  padding: 0.5em;
-  margin: 0.3em;
-  border-radius: 10px;
+  margin: 0;
+  min-width: 9em;
 }
 
-.box-wrap {
-  background-color: #595652;
-  color: #79756f;
-  margin-top: 5px;
+.Planets div {
+  text-align: center;
 }
 
-a {
+.Planets p {
+  display:inline-block;
+  padding: .5em .75em;
+  background-color: #ccc;
+  border-radius: 4px;
+  color: #000;
   text-decoration: none;
+}
+
+.Planets a:hover {
+  background-color: #333;
+  color: #fff;
 }
