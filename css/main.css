@@ -14,7 +14,6 @@ body{
 }
 
 h1{
-  h1 {
   font-family: 'Bevan', cursive;
   background-color: #595652;
 }
@@ -27,39 +26,8 @@ h1{
   text-align: center;
   background-color: #79756f;
 }
-}
 
-.Planets box-1 {
-  display: inline-block;
-  list-style-type: square;
-  background-color:#713837;
-  color: #dbd6cf;
-  padding: 0.5em;
-  margin: 0.3em;
-  border-radius: 10px;
-}
-
-.Planets box-2 {
-  display: inline-block;
-  list-style-type: square;
-  background-color:#713837;
-  color: #dbd6cf;
-  padding: 0.5em;
-  margin: 0.3em;
-  border-radius: 10px;
-}
-
-.Planets box-3 {
-  display: inline-block;
-  list-style-type: square;
-  background-color:#713837;
-  color: #dbd6cf;
-  padding: 0.5em;
-  margin: 0.3em;
-  border-radius: 10px;
-}
-
-.Planets box-4 {
+.Planets nav {
   display: inline-block;
   list-style-type: square;
   background-color:#713837;
