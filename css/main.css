@@ -12,13 +12,12 @@ html {
 body {
   background-color: #595652;
   color: #dbd6cf;
-  margin: 0.3em;
+  margin: 0;
 }
 
 h1 {
   font-family: "Bevan";
   text-align: center;
-  background-color: #595652;
 }
 
 .nav {
@@ -32,22 +31,19 @@ h1 {
 
 .nav li {
   display: inline-block;
-  max-width: 20em;
   text-align: center;
   list-style-type: square;
   background-color:#713837;
-  color: #dbd6cf;
   padding: .6em 0.5em 0.75em;
-  margin: 0.3em;
+  margin: 0 auto 0.3em;
   border-radius: 7px;
 }
 
-a {
+.nav a {
   color: #fff;
-}
-
-a :hover {
-  color: #fff;
+  padding: .6em 0.5em 0.75em;
+  margin: 0 auto 0.3em;
+  border-radius: 7px;
 }
 
 .nav div {
@@ -58,8 +54,8 @@ a :hover {
 }
 
 .nav a:hover {
-  background-color: #dbd6cf;
-  color: #fff;
+  background-color: #f33;
+  color: #dbd6cf;
 }
 
 .nav li {
