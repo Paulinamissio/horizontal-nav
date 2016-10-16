@@ -1,21 +1,22 @@
 html {
-  background-color:#dbd6cf;
-  font-family: 'Bevan', cursive;
-  line-height: 1.5;
   box-sizing: border-box;
+  background-color:#dbd6cf;
+  font-family: "Bevan", cursive;
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
-body{
+
+body {
   background-color: #595652;
   color: #dbd6cf;
-  margin: 0 auto;
+  margin: 0.3em auto;
 }
 
-h1{
-  font-family: 'Bevan', cursive;
+h1 {
+  font-family: "Bevan", cursive;
   background-color: #595652;
 }
 
@@ -28,7 +29,7 @@ h1{
   background-color: #79756f;
 }
 
-.nav nav {
+.nav li{
   display: inline-block;
   list-style-type: square;
   background-color:#713837;
@@ -36,6 +37,19 @@ h1{
   padding: 0.5em;
   margin: 0.3em;
   border-radius: 10px;
+}
+
+.nav {
+  text-align: center;
+}
+
+a {
+  color: #fff
+}
+
+a:hover {
+  background-color: #dbd6cf;
+  color: #fff;
 }
 
 .nav div {
