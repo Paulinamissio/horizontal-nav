@@ -2,7 +2,6 @@ html {
   box-sizing: border-box;
   background-color:#dbd6cf;
   font-family: "Bevan";
-  line-height: 1.5;
 }
 
 *, *::before, *::after {
@@ -10,54 +9,44 @@ html {
 }
 
 body {
-  background-color: #595652;
+  background-color: #79756f;
   color: #dbd6cf;
   margin: 0;
+  border: 3px solid #595652;
 }
 
 h1 {
-  font-family: "Bevan";
+  color: #fff;
+  margin: 0;
+  font-family: "Bevan", serif;
   text-align: center;
 }
 
-.nav {
-  display: block;
-  margin:0.3em;
-  padding:.6em 0.5em 0.75em;
-  list-style-type: square;
+ul {
+  margin: 0;
+  padding: 0;
   text-align: center;
-  background-color: #79756f;
+  line-height: 1.5;
 }
 
-.nav li {
+li {
+  display: inline-block;
+}
+
+a {
+  font-family: "arial", sans-serif;
+  text-decoration: none;
+  color: #fff;
   display: inline-block;
   text-align: center;
   list-style-type: square;
   background-color:#713837;
-  padding: .6em 0.5em 0.75em;
-  margin: 0 auto 0.3em;
-  border-radius: 7px;
-}
-
-.nav a {
-  color: #fff;
-  padding: .6em 0.5em 0.75em;
-  margin: 0 auto 0.3em;
-  border-radius: 7px;
-}
-
-.nav div {
-  text-align: center;
-  padding: .6em 0.5em 0.75em;
+  padding: .6em .5em 0.75em;
   margin: 0.3em;
-  border-radius: 10px;
+  border-radius: 3px;
 }
 
-.nav a:hover {
+a:hover {
   background-color: #f33;
   color: #dbd6cf;
-}
-
-.nav li {
-  display: inline-block;
 }
