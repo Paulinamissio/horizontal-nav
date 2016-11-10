@@ -1,7 +1,7 @@
 html {
   box-sizing: border-box;
-  background-color:#dbd6cf;
-  font-family: "Bevan";
+  background-color: #dbd6cf;
+  font-family: serif;
 }
 
 *, *::before, *::after {
@@ -18,7 +18,7 @@ body {
 h1 {
   color: #fff;
   margin: 0;
-  font-family: "Bevan", serif;
+  font-family: sans-serif;
   text-align: center;
 }
 
@@ -34,15 +34,15 @@ li {
 }
 
 a {
-  font-family: "arial", sans-serif;
+  font-family: sans-serif;
   text-decoration: none;
   color: #fff;
   display: inline-block;
   text-align: center;
   list-style-type: square;
-  background-color:#713837;
-  padding: .6em .5em 0.75em;
-  margin: 0.3em;
+  background-color: #713837;
+  padding: .6em .5em .75em;
+  margin: .3em;
   border-radius: 3px;
 }
 
